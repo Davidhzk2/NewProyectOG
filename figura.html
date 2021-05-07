@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>figura</title>
+</head>
+<body>
+    <style>
+        .figura{
+            width: 25%;
+            height: 90vh;
+            /* background-color: brown;     */
+        }
+        .figura .large-rectangulo{
+            width: 100%;
+            height: 80%;
+            background-image: linear-gradient(#30302E, #424241);
+            border-radius: 8px;
+            margin: auto auto;
+        }
+        .figura .large-rectangulo .into-rectangulo{
+            background-color: white;
+            width: 93%;
+            height: 95%;
+            margin: auto auto;
+            top: 12px;
+            position: relative;
+        }
+        .figura .rectangulo{
+            width: 50%;
+            height: 18%;
+            margin: auto auto;
+            background-image:linear-gradient(#424241, #30302E);
+        }
+        .figura .shadow{
+            width: 100%;
+            height: 2%;
+            background: #30302e ;
+            box-shadow: 0 0 5px 5px #424241;
+            border-radius: 50%;
+            opacity: .6;
+            transform: scale(0.7);
+            margin: auto  auto;
+            margin-top:-6px ;
+        }
+
+        </style>
+    <div class="figura">
+        <div class="large-rectangulo">
+            <div class="into-rectangulo"></div>
+        </div>
+        <div class="rectangulo"></div>
+        <div class="shadow"></div>
+    </div>
+    
+</body>
+</html>

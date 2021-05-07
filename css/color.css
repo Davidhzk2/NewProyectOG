@@ -1,0 +1,19 @@
+/* En este archivo esta  la paleta de colores del proyectos */
+:root{
+
+    /* fondos */
+    --red: #FF1007;         /* Rojo*/
+    --white: #ffffff;       /* Blanco */    
+    --black: #000000;       /* negro */
+    --grayGround:#EFEFEF ;  /* gris*/
+    --grayInput: #e1e1e1;   /* gris input*/
+
+    /* Color de texto */
+
+    /* Titulos */
+    --grayTitle: #717171; 
+
+    /* Circulos de indicador de seccion */
+    --grayCirSe: rgba(170, 168, 168, 0.8);
+
+}
